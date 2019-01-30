@@ -1,3 +1,8 @@
 {
-  "extends": "eslint-config-egg"
+  "extends": "eslint-config-egg",
+  "rules": {
+    "space-before-function-paren": [ 1, "always" ],
+    "array-bracket-spacing": [ "error", "always" ],
+    "comma-dangle": ["error", "never"]
+  }
 }
