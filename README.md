@@ -43,12 +43,27 @@ exports.elasticsearch2 = {
 ```
 
 ## Configuration
+#### 单实例
 
 ```js
 // {app_root}/config/config.default.js
 exports.elasticsearch = {
   host: 'host:port',
   // more options: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/configuration.html
+};
+```
+
+#### 多实例
+```js
+exports.elasticsearch = {
+  clients: {
+    es1: {
+      host: 'host1:port',
+    },
+    es2: {
+      host: 'host2:port',
+    }
+  }
 };
 ```
 
