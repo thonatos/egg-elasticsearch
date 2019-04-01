@@ -16,6 +16,7 @@
     "elasticsearch": "^15.3.1"
   },
   "devDependencies": {
+    "@types/elasticsearch": "^5.0.32",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "egg": "^1.13.1",
@@ -43,7 +44,8 @@
     "config",
     "agent.js",
     "lib",
-    "app.js"
+    "app.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "6, 8"
@@ -57,5 +59,6 @@
   },
   "homepage": "https://github.com/eggjs/egg-elasticsearch#readme",
   "author": "thonatos",
-  "license": "MIT"
+  "license": "MIT",
+  "types": "index.d.ts"
 }

@@ -12,5 +12,5 @@ exports.elasticsearch = {
   app: true,
   agent: false,
 
-  host: '',
+  host: ''
 };
