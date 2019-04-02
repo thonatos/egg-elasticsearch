@@ -1,6 +1,6 @@
 {
-  "name": "egg-elasticsearch2",
-  "version": "2.0.1",
+  "name": "@dwd/egg-elasticsearch2",
+  "version": "2.0.2",
   "description": "elasticsearch for egg",
   "eggPlugin": {
     "name": "elasticsearch2"
