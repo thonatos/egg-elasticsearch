@@ -1,4 +1,4 @@
-import { Client } from 'elasticsearch';
+import { Client } from '@elastic/elasticsearch';
 
 declare module 'egg' {
   interface SingletonWrapper<T> {
