@@ -7,10 +7,7 @@
  * @property {String} SOME_KEY - some description
  */
 exports.elasticsearch = {
-  default: {
-  },
+  client: {},
   app: true,
-  agent: false,
-
-  host: '',
+  agent: false
 };

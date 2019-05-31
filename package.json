@@ -1,6 +1,6 @@
 {
-  "name": "egg-elasticsearch2",
-  "version": "2.0.1",
+  "name": "egg-elasticsearch",
+  "version": "3.0.0",
   "description": "elasticsearch for egg",
   "eggPlugin": {
     "name": "elasticsearch2"
@@ -13,7 +13,7 @@
     "egg-elasticsearch"
   ],
   "dependencies": {
-    "elasticsearch": "^15.3.1"
+    "@elastic/elasticsearch": "^6.8.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -43,7 +43,8 @@
     "config",
     "agent.js",
     "lib",
-    "app.js"
+    "app.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "6, 8"
@@ -57,5 +58,6 @@
   },
   "homepage": "https://github.com/eggjs/egg-elasticsearch#readme",
   "author": "thonatos",
-  "license": "MIT"
+  "license": "MIT",
+  "types": "index.d.ts"
 }

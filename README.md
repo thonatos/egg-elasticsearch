@@ -48,7 +48,9 @@ exports.elasticsearch2 = {
 ```js
 // {app_root}/config/config.default.js
 exports.elasticsearch = {
-  host: 'host:port',
+  client: {
+    host: 'host:port',
+  },
   // more options: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/configuration.html
 };
 ```

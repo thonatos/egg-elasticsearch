@@ -7,7 +7,7 @@ describe('test/elasticsearch.test.js', () => {
   let app;
   before(() => {
     app = mm.app({
-      baseDir: 'apps/elasticsearch-test',
+      baseDir: 'apps/elasticsearch-test'
     });
     return app.ready();
   });
