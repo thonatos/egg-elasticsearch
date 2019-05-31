@@ -1,5 +1,5 @@
 {
-  "name": "@dwd/egg-elasticsearch",
+  "name": "egg-elasticsearch",
   "version": "3.0.0",
   "description": "elasticsearch for egg",
   "eggPlugin": {
